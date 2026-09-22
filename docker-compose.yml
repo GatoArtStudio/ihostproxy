@@ -11,6 +11,8 @@ services:
       - v_ihostproxy:/db
     environment:
       - DB_PATH=/db/main.db
+      - WEBUI_PASS
+      - WEBUI_USER
 
 volumes:
   v_ihostproxy:
