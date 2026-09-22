@@ -5,7 +5,7 @@ services:
     image: alexng353/ihostproxy
     container_name: ihostproxy
     ports:
-      - "1080:1080"
+      - "25661:1080"
       - "25660:8080"
     volumes:
       - v_ihostproxy:/db
